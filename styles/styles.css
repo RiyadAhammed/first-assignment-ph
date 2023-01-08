@@ -10,13 +10,15 @@
     text-align: right;
     font-weight: 610;
     font-size: 65px;
- color: #FFFFFF;
+    color: #FFFFFF;
    
 }
 .banner-description{
     padding-left: 1050px;
     padding-right:160px ;
     text-align: right;
+    font-size: 23px;
+    color: #FFFFFF;
 }
 button{
     margin-left: 1300px;
@@ -36,6 +38,7 @@ button{
     gap: 30px;
 
 }
+
 .main-title{
     margin-left: 200px;
     margin-right: 150px;
@@ -45,9 +48,13 @@ button{
 }
 .para-description{
     font-weight: 40;
-    margin-left: 100px;
-    margin-right: 400px;
+    margin-left: 200px;
+    margin-right: 200px;
     font-size: 18px;
+}
+
+.container{
+    margin-left: 200px;
 }
 /* my future plans */
 .plan-title{
@@ -90,7 +97,7 @@ button{
     padding-top: 5px;
     
         
-    background: linear-gradient(90deg, #01335c 0%, rgba(1, 59, 107, 0) 100%), url('../images/watch.png');   
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png);
 }
 .always button{
     width: 140px;
@@ -142,12 +149,39 @@ a{
 
 }
 .contact-style{
-    margin-right: 200px;
+    /* height: 40px;
+    width: 200px; */
+    color: #FFFFFF;
+    height: 64px;
+    left: 1046px
+
 
 
 }
 .contact-head-2{
     color: #FFFFFF;
-   
+    margin-top: 15px;
 
 }
+.contact input[type="email"]{
+    height: 50px;
+    color: #FFFFFF;
+    width: 200px;
+    padding-left: 20px;
+    border-radius: 15px;
+    background-color: #130808; 
+    font-size: 20px;
+}
+    
+
+.contact input[type="subscribe"]{
+    height: 45px;
+    color: #FFFFFF;
+    background-color: chocolate;
+    font-size: 20px;
+    width:110px ;
+    padding-left: 25px;
+    margin-top: 10px;
+    border-radius: 8px;
+    margin-right: 150px;
+}   
