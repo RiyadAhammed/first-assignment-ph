@@ -1,0 +1,153 @@
+.banner-content {
+  background: url(../images/banner/banner3.png);
+  width: 1600px;
+  height: 808px;
+}
+.banner-title{
+    padding-right: 160px;
+    padding-left: 850px;
+    padding-top: 230px;
+    text-align: right;
+    font-weight: 610;
+    font-size: 65px;
+ color: #FFFFFF;
+   
+}
+.banner-description{
+    padding-left: 1050px;
+    padding-right:160px ;
+    text-align: right;
+}
+button{
+    margin-left: 1300px;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 5px;
+    height: 60px;
+    width: 140px;
+}
+/* main section styles*/
+.main-section{
+    display: flex;
+    align-items: center;
+    margin-left: 250px;
+    margin-right: 100;
+    margin-top: 100px;
+    gap: 30px;
+
+}
+.main-title{
+    margin-left: 200px;
+    margin-right: 150px;
+    font-weight: 800;
+    font-size: 50px;
+    color: #151414;
+}
+.para-description{
+    font-weight: 40;
+    margin-left: 100px;
+    margin-right: 400px;
+    font-size: 18px;
+}
+/* my future plans */
+.plan-title{
+    text-align: center;
+    margin-top: 150px;
+    font-size: 50px;
+
+}
+.info-skills{
+    text-align: center;
+}
+.skills-name{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #151414;
+}
+.skills-description{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+.my-future-plans{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 200px;
+}
+
+.always{
+    position: relative;
+    color: #fff;
+    height: 230px;
+    margin: 0 240px;
+     background-size: 100%;
+    border: 0;
+    border-radius: 5px;
+    font-size:25px ;
+    padding-left: 50px;
+    padding-right: 600px;
+    padding-top: 5px;
+    
+        
+    background: linear-gradient(90deg, #01335c 0%, rgba(1, 59, 107, 0) 100%), url('../images/watch.png');   
+}
+.always button{
+    width: 140px;
+    height: 50px;
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 3px;
+    margin-bottom: 40px;
+    border: 0;
+    border-radius: 5px; 
+}
+
+/* contact form */
+.contact{
+    display: flex;
+    gap: 150px;
+    background: #151414;
+    padding: 130px 180px;
+    margin-top: 80px;    
+}
+.contact-head{
+    margin-left: 60px;
+}
+.contact-head a{
+    text-decoration: none;
+}
+.contact-title{
+   color: #FFFFFF;
+   font-size: 40px;
+   width: 200px;
+  
+
+}
+.description{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 100px;
+    margin-right: 300px;
+
+}
+
+a{
+
+    
+}
+.styling{
+    color: #FFFFFF;
+
+}
+.contact-style{
+    margin-right: 200px;
+
+
+}
+.contact-head-2{
+    color: #FFFFFF;
+   
+
+}
